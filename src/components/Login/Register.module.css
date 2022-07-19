@@ -1,0 +1,62 @@
+
+body{
+    background-image: url('https://img.freepik.com/vector-gratis/papel-pintado-flores-acuarela-colores-pastel_23-2148418364.jpg?w=2000');
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+/* background: #A7BDEF;
+background: -webkit-radial-gradient(top right, #A7BDEF, #08595C);
+background: -moz-radial-gradient(top right, #A7BDEF, #08595C);
+background: radial-gradient(to bottom left, #A7BDEF, #08595C);
+margin: 0px;
+font-family: 'Arima', cursive; */
+}
+
+.ContainerPrincipal{
+    display: flex;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.RegisterContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    margin: 20px;
+    padding: 20px;
+    border: dotted 2px #08595C;
+    flex-direction: column;
+    color: #08595C;
+}
+::placeholder { color: black; }
+::placeholder { font-family: 'Arima', cursive}
+
+.InputsForm{
+    display: flex;
+    margin: 0 10px 0 10px;
+    padding: 10px;
+}
+
+.InputsForm input {
+    background-color: rgba(245, 183, 177, 0.3);
+    border-radius: 10px;
+    font-family: 'Arima', cursive;
+    color: black;
+    font-size: smaller;
+}
+.InputsForm img{
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+}
+
+.ButtonRegister{
+    border-radius: 5px;
+    color: white;
+    background-color: #08595C;
+    font-family: 'Arima', cursive;
+    width: auto;
+}
